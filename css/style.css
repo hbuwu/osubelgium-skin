@@ -19,11 +19,13 @@ main {
     position: fixed;
     width: 50vw;
     aspect-ratio: 16/9;
-    inset: 0;
     margin: auto;
     box-shadow: 0 0 30px 15px rgba(12, 12, 12, 0.568);
     border-radius: 2rem;
     background: rgb(40,40,40);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .particleContainer{
@@ -50,6 +52,7 @@ a {
 a:hover {
     transform: scale(1.03);
     transition-duration: 0.5s;
+    background-color: rgb(99, 162, 218);
 }
 
 a:visited {
@@ -68,7 +71,7 @@ a:visited {
 }
 
 .imageContainer {
-    max-height: 60%;
+    max-height: 63%;
     overflow: hidden;
 }
 
